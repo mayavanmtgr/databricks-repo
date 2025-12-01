@@ -8,7 +8,7 @@
 --drop table `curatedds.trans_mobile_autopart_2021`;
 --drop table `curatedds.trans_mobile_autopart_2022`;
 --drop table `curatedds.trans_mobile_autopart_2023`;
-
+--Mayavan doing changes
 create schema if not exists rawds options(location='us');
 create table if not exists rawds.audit_meta(proc_name string,exec_ts timestamp,description string);
 select current_timestamp,"Load started";
